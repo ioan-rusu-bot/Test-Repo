@@ -7,6 +7,6 @@ int main(int argc, char ** argv)
     std::cerr << "There weren't any names provided!";
     std::exit(EXIT_FAILURE);
   }
-  std::cout << "Hello " + argv[1];
+  std::cout << "Hello " << argv[1];
   return 0;
 }
